@@ -1,0 +1,104 @@
+[theme="dark"] {
+    .body {
+        color: #fff;
+        background-color: #0e2547;
+    }
+
+    .with-bg {
+        background: #003563;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    .featured-box-primary h4,
+    #header .header-nav.header-nav-links:not(.header-nav-light-text) nav > ul > li > a,
+    #header .header-nav.header-nav-line:not(.header-nav-light-text) nav > ul > li > a,
+    .dropdown-toggle::after,
+    #footer .footer-copyright p {
+        color: #fff;
+    }
+
+    #header .header-nav-features:before {
+        background-color: #fff;
+    }
+
+    #header .header-nav.header-nav-links nav > ul li:hover > a {
+        color: #8fd4ff;
+    }
+
+    #header .header-nav-main:before {
+        background: transparent;
+    }
+
+    #header .header-body,
+    #footer .footer-copyright.footer-copyright-style-2,
+    #footer {
+        background: radial-gradient(circle at 1% 100%, #0090e9, #003563);
+    }
+
+    #footer {
+        border-top: none;
+    }
+
+    .social-icons.social-icons-opacity-light li a {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .btn-switch-mode,
+    .btn-switch-mode:hover,
+    .btn-switch-mode:focus,
+    .btn-switch-mode:active {
+        background-color: #f0f0f0;
+        border-color: #f0f0f0 #f0f0f0 #c0c0c0;
+        color: #333;
+        box-shadow: 0px 0px 10px 0px #c0c0c0 !important;
+    }
+
+    .text-color-primary,
+    .text-primary {
+        color: #8fd4ff !important;
+    }
+
+    .timeline:before {
+        background: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0) 0%,
+            #ffffff 8%,
+            #ffffff 92%,
+            rgba(255, 255, 255, 0) 100%
+        );
+    }
+
+    .timeline .timeline-box,
+    .featured-boxes-flat .featured-box .box-content,
+    .card {
+        background: #09182f;
+    }
+
+    .timeline .timeline-box.right .timeline-box-arrow,
+    .timeline .timeline-box.left .timeline-box-arrow {
+        background: #09182f;
+    }
+
+    .progress {
+        background-color: #00437d;
+    }
+
+    .featured-box {
+        background: #00437d;
+        border-bottom: 1px solid #00437d;
+        border-left: 1px solid #00437d;
+        border-radius: 8px;
+        border-right: 1px solid #00437d;
+    }
+
+    .timeline .timeline-box.left:before,
+    .timeline .timeline-box.right:before {
+        box-shadow: 0 0 0 3px #09182F, 0 0 0 6px #0088CC;
+    }
+}

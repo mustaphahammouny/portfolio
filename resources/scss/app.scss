@@ -1,0 +1,24 @@
+$fa-font-path: "@fortawesome/fontawesome-free/webfonts";
+
+@import "bootstrap/scss/bootstrap";
+
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import "@fortawesome/fontawesome-free/scss/solid";
+@import "@fortawesome/fontawesome-free/scss/regular";
+@import "@fortawesome/fontawesome-free/scss/brands";
+
+@import "flag-icons";
+
+@import "animate.css/animate.compat";
+
+@import "theme";
+
+@import "theme-elements";
+
+@import "theme-blog";
+
+@import "theme-shop";
+
+@import "skins/default";
+
+@import "theme-dark";
