@@ -1,17 +1,6 @@
 <?php
 
 return [
-    'menu' => [
-        ['name' => 'Home', 'to' => '/'],
-        ['name' => 'Experiences', 'to' => '#experiences'],
-        ['name' => 'Education', 'to' => '#education'],
-        ['name' => 'Skills', 'to' => '#skills'],
-        ['name' => 'Personality', 'to' => '#personality'],
-        ['name' => 'Languages', 'to' => '#languages'],
-        // ['name' => 'Interests', 'to' => '#interests'],
-        ['name' => 'Contact', 'to' => '#contact'],
-    ],
-
     'info' => [
         'name' => 'Mustapha Hammouny',
         'birth-date' => '06/22/1992',

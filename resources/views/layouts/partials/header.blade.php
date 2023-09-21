@@ -19,9 +19,9 @@
                                 class="header-nav-main header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-dropdown-arrow header-nav-main-effect-3 header-nav-main-sub-effect-1">
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
-                                        @foreach (config('resume.menu') as $menu)
+                                        @foreach (\App\Constants\Menu::HEADER as $menu)
                                             <li class="dropdown">
-                                                <a class="dropdown-item" href="{{ $menu['to'] }}">
+                                                <a class="dropdown-item @if(Request::routeIs($menu['to'])) active @endif" href="{{ route($menu['to']) }}">
                                                     @lang($menu['name'])
                                                 </a>
                                             </li>

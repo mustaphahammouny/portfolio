@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ResumeController;
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
@@ -22,8 +24,8 @@ Route::group([
 ], function () {
     Route::get('/', [HomeController::class, 'index'])->name('home');
     
-    Route::get('/blocks', [BlockController::class, 'index'])->name('blocks.index');
-    Route::get('/blocks/{slug}', [BlockController::class, 'show'])->name('blocks.show');
+    Route::get('/blogs', [BlogController::class, 'index'])->name('blogs.index');
+    Route::get('/blogs/{slug}', [BlogController::class, 'show'])->name('blogs.show');
 
     Route::get('/projects', [ProjectController::class, 'index'])->name('projects.index');
     Route::get('/projects/{slug}', [ProjectController::class, 'show'])->name('projects.show');

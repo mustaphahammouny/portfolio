@@ -17,7 +17,7 @@ class App {
     }
 
     static initScroll() {
-        $(document).on("click", "#header .dropdown-item", function () {
+        $(document).on("click", "#nav a", function () {
             const id = $(this).attr("href");
             $("html").animate(
                 {
