@@ -6,7 +6,7 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo">
-                            <a href="index.html">
+                            <a href="{{ route('home') }}">
                                 <img width="82" height="40" src="{{ Vite::image('logo.png') }}" alt="Logo" />
                             </a>
                         </div>
@@ -59,7 +59,7 @@
                                 </div>
 
                                 <div class="my-auto ms-3">
-                                    <a href="#" class="btn btn-circle btn-switch-mode">
+                                    <a href="javascript:void(0);" class="btn btn-circle btn-switch-mode">
                                         <i class="fas fa-lightbulb"></i>
                                     </a>
                                 </div>

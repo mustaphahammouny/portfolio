@@ -140,4 +140,16 @@ abstract class Resume
         ['name' => 'English', 'level' => 'Intermediate'],
         ['name' => 'French', 'level' => 'Intermediate'],
     ];
+
+    public static function all(): array
+    {
+        return [
+            'info' => self::INFO,
+            'experiences' => self::EXPERIENCES,
+            'education' => self::EDUCATION,
+            'skills' => self::SKILLS,
+            'personality' => self::PERSONALITY,
+            'languages' => self::LANGUAGES,
+        ];
+    }
 }

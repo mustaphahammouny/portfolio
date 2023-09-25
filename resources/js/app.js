@@ -29,12 +29,19 @@ class App {
     }
 
     static initSwitchMode() {
+        const bodyElement = $("body");
+        const theme = localStorage.getItem("theme");
+        if (theme == "dark") {
+            bodyElement.attr("theme", "dark");
+        }
+
         $(document).on("click", ".btn-switch-mode", function () {
-            const bodyElement = $("body");
             if (bodyElement.attr("theme") == "dark") {
                 bodyElement.removeAttr("theme");
+                localStorage.removeItem("theme");
             } else {
                 bodyElement.attr("theme", "dark");
+                localStorage.setItem("theme", "dark");
             }
         });
     }

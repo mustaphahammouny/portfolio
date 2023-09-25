@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Constants\Resume;
 use  Barryvdh\DomPDF\Facade\Pdf;
 
 class ResumeController extends Controller
@@ -9,7 +10,7 @@ class ResumeController extends Controller
     public function download()
     {
         try {
-            $resume = config('resume');
+            $resume = Resume::all();
             $name = str_replace(' ', '-', $resume['info']['name']);
 
             // return view('pdf.resume', compact('resume'));
