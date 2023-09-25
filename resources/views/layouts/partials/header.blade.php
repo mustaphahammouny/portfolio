@@ -21,7 +21,8 @@
                                     <ul class="nav nav-pills" id="mainNav">
                                         @foreach (\App\Constants\Menu::HEADER as $menu)
                                             <li class="dropdown">
-                                                <a class="dropdown-item @if(Request::routeIs($menu['to'])) active @endif" href="{{ route($menu['to']) }}">
+                                                <a class="dropdown-item @if (Request::routeIs($menu['to'])) active @endif"
+                                                    href="{{ route($menu['to']) }}">
                                                     @lang($menu['name'])
                                                 </a>
                                             </li>
@@ -41,12 +42,14 @@
                                 <div class="dropdown">
                                     <button class="btn border-0 px-0 dropdown-toggle dropdown-locale" type="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
-                                        <span class="fi fi-{{ LaravelLocalization::getCurrentLocale() == 'fr' ? 'fr' : 'gb' }}"></span>
+                                        <span
+                                            class="fi fi-{{ config('laravellocalization.supportedLocales.' . App::getLocale() . '.logo') }}"></span>
                                     </button>
                                     <ul class="dropdown-menu">
-                                        @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)    
+                                        @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                                             <li>
-                                                <a class="dropdown-item" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                                                <a class="dropdown-item"
+                                                    href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
                                                     <span class="fi fi-{{ $properties['logo'] }}"></span>
                                                     @lang($properties['name'])
                                                 </a>
