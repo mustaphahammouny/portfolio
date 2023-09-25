@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col text-center pt-2">
                 <div class="d-inline-block">
-                    @foreach (\App\Constants\Menu::HOME as $menu)
+                    @foreach (\App\Constants\Menu::RESUME as $menu)
                         <a href="{{ $menu['to'] }}"
                             class="btn btn-modern btn-light font-weight-bold me-2 mb-2">
                             @lang($menu['name'])

@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Constants\Projects;
+
 class ProjectController extends Controller
 {
     public function index()
     {
-        $projects = config('projects');
+        $projects = Projects::ALL;
 
         return view('projects.index', compact('projects'));
     }

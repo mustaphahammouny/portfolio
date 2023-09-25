@@ -2,16 +2,16 @@
 
 namespace App\Constants;
 
-abstract class Menu
+abstract class Blogs
 {
-    const HEADER = [
+    const ALL = [
         ['name' => 'Home', 'to' => 'home'],
         ['name' => 'Projects', 'to' => 'projects.index'],
         ['name' => 'Blogs', 'to' => 'blogs.index'],
         // ['name' => 'Contact', 'to' => 'contact.index'],
     ];
 
-    const RESUME = [
+    const HOME = [
         ['name' => 'Experiences', 'to' => '#experiences'],
         ['name' => 'Education', 'to' => '#education'],
         ['name' => 'Skills', 'to' => '#skills'],

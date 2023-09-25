@@ -1,7 +1,10 @@
 <?php
 
-return [
-    'info' => [
+namespace App\Constants;
+
+abstract class Resume
+{
+    const INFO = [
         'name' => 'Mustapha Hammouny',
         'birth-date' => '06/22/1992',
         'email' => 'mustapha.hammouny@gmail.com',
@@ -9,10 +12,9 @@ return [
         'address' => 'GP ELFAKHR N°1 Tabriquet',
         'city' => 'Sale',
         'country' => 'Morocco',
-    ],
+    ];
 
-    'socials' => [
-        // ['internal-link' => 'home', 'class' => 'social-icons-linkedin', 'icon' => 'fas fa-globe'],
+    const SOCIALS = [
         [
             'external-link' => 'https://github.com/mustaphahammouny',
             'class' => 'social-icons-linkedin',
@@ -28,9 +30,9 @@ return [
             'class' => 'social-icons-linkedin',
             'icon' => 'fab fa-twitter',
         ],
-    ],
+    ];
 
-    'experiences' => [
+    const EXPERIENCES = [
         [
             'company' => 'KJR Telecom',
             'from' => '01/06/2023',
@@ -74,9 +76,9 @@ return [
             'description' =>  'Teaching of practical work and tutorials.',
             'technologies' => ['C'],
         ],
-    ],
+    ];
 
-    'education' => [
+    const EDUCATION = [
         [
             'school' => 'Faculty of Sciences - Rabat',
             'from' =>  '2014',
@@ -101,9 +103,9 @@ return [
             'option' => 'Sciences of Physics',
             'description' => 'Baccalaureate degree in Experimental Sciences (option: Sciences of Physics)',
         ],
-    ],
+    ];
 
-    'skills' => [
+    const SKILLS = [
         ['name' => 'C', 'logo' => 'c.svg'],
         ['name' => 'C++', 'logo' => 'c++.svg'],
         ['name' => 'HTML', 'logo' => 'html.svg'],
@@ -121,9 +123,9 @@ return [
         ['name' => 'Vue', 'logo' => 'vue.svg'],
         ['name' => 'Angular', 'logo' => 'angular.svg'],
         ['name' => 'Git', 'logo' => 'git.svg'],
-    ],
+    ];
 
-    'personality' => [
+    const PERSONALITY = [
         ['name' => 'Problem solving', 'level' => 90],
         ['name' => 'Autonomy', 'level' => 85],
         ['name' => 'Teamwork', 'level' => 80],
@@ -131,12 +133,11 @@ return [
         ['name' => 'Adaptability', 'level' => 85],
         ['name' => 'Communication', 'level' => 75],
         ['name' => 'Empathy', 'level' => 75],
-    ],
+    ];
 
-    'languages' => [
+    const LANGUAGES = [
         ['name' => 'Arabic', 'level' => 'Native language'],
         ['name' => 'English', 'level' => 'Intermediate'],
         ['name' => 'French', 'level' => 'Intermediate'],
-    ],
-
-];
+    ];
+}
