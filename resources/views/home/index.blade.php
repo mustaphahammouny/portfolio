@@ -16,6 +16,4 @@
     @include('home.partials.personality')
 
     @include('home.partials.languages')
-
-    @include('home.partials.contact')
 </x-layouts::app>

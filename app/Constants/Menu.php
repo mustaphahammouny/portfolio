@@ -7,8 +7,8 @@ abstract class Menu
     const HEADER = [
         ['name' => 'Home', 'to' => 'home'],
         ['name' => 'Projects', 'to' => 'projects.index'],
-        ['name' => 'Blogs', 'to' => 'blogs.index'],
-        // ['name' => 'Contact', 'to' => 'contact.index'],
+        // ['name' => 'Blogs', 'to' => 'blogs.index'],
+        ['name' => 'Contact', 'to' => 'contact.index'],
     ];
 
     const RESUME = [

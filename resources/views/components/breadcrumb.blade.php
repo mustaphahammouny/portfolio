@@ -1,6 +1,7 @@
 @props(['title'])
 
-<div class="row row-cols-1 py-5">
+<div class="row row-cols-1 py-5 appear-animation" data-appear-animation="fadeInRightShorter"
+    data-appear-animation-delay="500">
     <div class="col align-self-center p-static text-center">
         <h1 class="font-weight-bold text-8 mb-0">{{ $title }}</h1>
     </div>

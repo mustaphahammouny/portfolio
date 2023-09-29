@@ -7,7 +7,8 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="{{ route('home') }}">
-                                <img width="82" height="40" src="{{ Vite::image('logo.png') }}" alt="Logo" />
+                                <canvas class="logo"></canvas>
+                                {{-- <img class="logo" alt="Logo" /> --}}
                             </a>
                         </div>
                     </div>
