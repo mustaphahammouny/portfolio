@@ -12,6 +12,7 @@ abstract class Resume
         'address' => 'GP ELFAKHR N°1 Tabriquet',
         'city' => 'Sale',
         'country' => 'Morocco',
+        'job' => 'Full Stack developer',
     ];
 
     const SOCIALS = [
@@ -35,9 +36,9 @@ abstract class Resume
     const EXPERIENCES = [
         [
             'company' => 'KJR Telecom',
-            'from' => '01/06/2023',
-            'to' => 'Till today',
-            'role' => 'Full Stack developer - Laravel / Javascript',
+            'from' => '01/03/2023',
+            'to' => 'Present',
+            'job' => 'Full Stack developer - Laravel / Javascript',
             'description' =>
             'Participating in the construction, development, and maintenance of web applications as per the request of the French operator, Free Telecom.',
             'technologies' => ['Html', 'Css', 'PHP', 'Laravel', 'Bootstrap', 'JS', 'jQuery', 'Mysql', 'Git',],
@@ -45,8 +46,8 @@ abstract class Resume
         [
             'company' => 'RC2K',
             'from' => '02/12/2019',
-            'to' => '01/06/2023',
-            'role' => 'Full Stack developer - Laravel / Javascript',
+            'to' => '28/02/2023',
+            'job' => 'Full Stack developer - Laravel / Javascript',
             'description' =>
             'Participating in the construction, development, and maintenance of web applications as per the request of the French operator, Free Telecom.',
             'technologies' => ['Html', 'Css', 'PHP', 'Laravel', 'Bootstrap', 'JS', 'jQuery', 'Mysql', 'Git',],
@@ -55,7 +56,7 @@ abstract class Resume
             'company' => 'CreaSouk',
             'from' => '04/03/2019',
             'to' => '30/11/2019',
-            'role' => 'Full Stack developer - Codeigniter / Javascript',
+            'job' => 'Full Stack developer - Codeigniter / Javascript',
             'description' =>
             'Development of a platform for creating and managing online stores.',
             'technologies' => ['Html', 'Css', 'PHP', 'Codeigniter', 'Bootstrap', 'JS', 'jQuery', 'Mysql', 'Git',],
@@ -64,7 +65,7 @@ abstract class Resume
             'company' => 'Opteamum',
             'from' => '03/12/2018',
             'to' => '01/03/2019',
-            'role' => 'Intership',
+            'job' => 'Intership',
             'description' =>  'Development of a platform for excursion management.',
             'technologies' => ['Html', 'Css', 'PHP', 'Zend', 'Bootstrap', 'JS', 'jQuery', 'Mysql', 'Git',],
         ],
@@ -72,8 +73,8 @@ abstract class Resume
             'company' => 'Faculty of Sciences - Rabat',
             'from' => '02/2017',
             'to' => '05/2017',
-            'role' => 'Substitute teacher',
-            'description' =>  'Teaching of practical work and tutorials.',
+            'job' => 'Substitute teacher',
+            'description' =>  'Teaching of practical work and supervised work.',
             'technologies' => ['C'],
         ],
     ];
@@ -141,6 +142,10 @@ abstract class Resume
         ['name' => 'French', 'level' => 'Intermediate'],
     ];
 
+    const INTERESTS = [
+        'Traveling', 'Technology', 'Reading', 'Sport',
+    ];
+
     public static function all(): array
     {
         return [
@@ -150,6 +155,12 @@ abstract class Resume
             'skills' => self::SKILLS,
             'personality' => self::PERSONALITY,
             'languages' => self::LANGUAGES,
+            'interests' => self::INTERESTS,
         ];
+    }
+
+    public static function fullAddress(): string
+    {
+        return __(self::INFO['address']) . ' ' . __(self::INFO['city']) . ' - ' . __(self::INFO['country']);
     }
 }

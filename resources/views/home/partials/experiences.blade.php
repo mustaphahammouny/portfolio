@@ -14,14 +14,14 @@
                                             <div class="post-content">
                                                 <h2
                                                     class="font-weight-semibold text-5 text-primary line-height-4 mt-2 mb-2">
-                                                    @lang($experience['role'])
+                                                    @lang($experience['job'])
                                                 </h2>
                                                 <p class="font-weight-semibold mb-0">
                                                     @lang($experience['company'])
                                                 </p>
                                                 <p class="font-weight-semibold">
                                                     <i class="far fa-calendar-alt me-1"></i>
-                                                    {{ $experience['from'] }} - @lang($experience['to'])
+                                                    @lang($experience['from']) - @lang($experience['to'])
                                                 </p>
                                                 <p>@lang($experience['description'])</p>
                                             </div>

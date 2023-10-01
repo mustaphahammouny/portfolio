@@ -11,7 +11,9 @@
     "Contact": "Kontakt",
     
     "Hello, I'm": "Hallo, ich bin",
-    "I'm a Full Stack developer from": "Ich bin ein Full-Stack-Entwickler aus",
+    "I'm a": "Ich bin ein",
+    "Full Stack developer": "Full-Stack-Entwickler",
+    "from": "aus",
     "Morocco": "Marokko",
     "Download my resume": "Lebenslauf herunterladen",
     
@@ -19,11 +21,11 @@
     "Full Stack developer - Codeigniter / Javascript": "Full-Stack-Entwickler - Codeigniter / Javascript",
     "Internship": "Praktikum",
     "Substitute teacher": "Vertretungslehrer",
-    "Till today": "Bis heute",
+    "Present": "Aktuell",
     "Participating in the construction, development, and maintenance of web applications as per the request of the French operator, Free Telecom.": "Teilnahme am Bau, der Entwicklung und Wartung von Webanwendungen auf Anfrage des französischen Betreibers Free Telecom.",
     "Development of a platform for creating and managing online stores.": "Entwicklung einer Plattform zur Erstellung und Verwaltung von Online-Shops.",
     "Development of a platform for excursion management.": "Entwicklung einer Plattform für die Ausflugsverwaltung.",
-    "Teaching of practical work and tutorials.": "Unterricht in praktischen Arbeiten und Tutorials.",
+    "Teaching of practical work and tutorials.": "Unterricht in praktischer Arbeit und betreute Arbeit.",
     "Faculty of Sciences - Rabat": "Fakultät für Naturwissenschaften - Rabat",
     "Technologies": "Technologien",
 
@@ -51,6 +53,11 @@
     "French": "Französisch",
     "Native language": "Muttersprache",
     "Intermediate": "Mittelstufe",
+
+    "Traveling": "Reisen",
+    "Technology": "Technologie",
+    "Reading": "Lesen",
+    "Sport": "Sport",
 
     "Phone": "Telefon",
     "Email": "E-Mail",

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Constants\Resume;
-use  Barryvdh\DomPDF\Facade\Pdf;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class ResumeController extends Controller
 {
