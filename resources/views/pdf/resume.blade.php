@@ -181,6 +181,7 @@
             display: inline-block;
             position: absolute;
             left: 10px;
+            /* left: 238px; */
             /* top: -2px; */
             width: 12px;
             height: 12px;

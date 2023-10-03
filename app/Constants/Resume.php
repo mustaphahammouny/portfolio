@@ -12,6 +12,7 @@ abstract class Resume
         'address' => 'GP ELFAKHR N°1 Tabriquet',
         'city' => 'Sale',
         'country' => 'Morocco',
+        'nationality' => 'Moroccan',
         'job' => 'Full Stack developer',
     ];
 
