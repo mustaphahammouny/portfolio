@@ -10,11 +10,7 @@ class ProjectController extends Controller
     {
         $projects = Projects::ALL;
 
-        return view('projects.index', compact('projects'));
-    }
-
-    public function show()
-    {
-
+        return view('coming-soon');
+        // return view('projects.index', compact('projects'));
     }
 }
