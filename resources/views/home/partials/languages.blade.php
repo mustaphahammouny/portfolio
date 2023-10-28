@@ -1,6 +1,6 @@
 <section id="languages" class="with-bg">
     <div class="container-md container-xl-custom py-4">
-        <x-title :title="__('Languages')" />
+        <x-title title="Languages" />
         <div class="row row-cols-1 row-cols-md-3 justify-content-center">
             @foreach ($resume['languages'] as $language)
                 <div class="col mb-4 appear-animation" data-appear-animation="fadeInUpShorter"

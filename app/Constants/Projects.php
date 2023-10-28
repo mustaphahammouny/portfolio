@@ -6,10 +6,10 @@ abstract class Projects
 {
     const ALL = [
         [
-            'name' => 'Booking for services',
-            'to' => '',
+            'name' => 'WeCare',
+            'to' => 'https://wecare.mustaphahammouny.com/',
             'description' => 'A booking app for services like cleaning, coaching, and personal chefs is a convenient tool that allows users to easily schedule and manage appointments for various services. Users can browse through a list of service providers, view their availability, and book appointments at their preferred date and time. The app simplifies the process of finding and hiring professionals for tasks like house cleaning, personal coaching, or personal chefs, making it a time-saving and hassle-free solution for users seeking these services.',
-            'image' => 'booking-for-services.png',
+            'image' => 'wecare.png',
             'technologies' => ['Html', 'Css', 'PHP', 'Laravel', 'Livewire', 'Bootstrap', 'JS', 'jQuery', 'Mysql', 'Git'],
         ],
         [

@@ -7,7 +7,7 @@ abstract class Resume
     const INFO = [
         'name' => 'Mustapha Hammouny',
         'birth-date' => '06/22/1992',
-        'email' => 'mustapha.hammouny@gmail.com',
+        'email' => 'contact@mustaphahammouny.com',
         'phone' => '+212 676 991 956',
         'address' => 'GP ELFAKHR N°1 Tabriquet',
         'city' => 'Sale',

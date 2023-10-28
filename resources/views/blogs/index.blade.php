@@ -5,7 +5,7 @@
 
     <x-particles>
         <x-particles>
-            <x-breadcrumb :title="__('My Blogs')" />
+            <x-breadcrumb title="My Blogs" />
         </x-particles>
     </x-particles>
 </x-layouts::app>

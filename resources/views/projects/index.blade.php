@@ -4,7 +4,7 @@
     </x-slot>
 
     <x-particles>
-        <x-breadcrumb :title="__('My projects')" />
+        <x-breadcrumb title="My projects" />
     </x-particles>
 
     <section id="projects" class="with-bg">

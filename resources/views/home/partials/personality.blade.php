@@ -1,6 +1,6 @@
 <section id="personality">
     <div class="container-md container-xl-custom py-4">
-        <x-title :title="__('Personality')" />
+        <x-title title="Personality" />
         <div class="row row-cols-1 row-cols-sm-2 justify-content-center align-items-center">
             @foreach ($resume['personality'] as $personality)
                 <div class="col mb-4">

@@ -1,6 +1,6 @@
 <section id="experiences" class="with-bg">
     <div class="container-md container-xl-custom py-4">
-        <x-title :title="__('Experiences')" />
+        <x-title title="Experiences" />
         <div class="row mt-4 mt-md-0">
             <div class="col">
                 <section class="timeline pb-0 pb-sm-5" id="timeline">

@@ -1,6 +1,6 @@
 <section id="education">
     <div class="container-md container-xl-custom py-4">
-        <x-title :title="__('Education')" />
+        <x-title title="Education" />
         <div class="row row-cols-1">
             @foreach ($resume['education'] as $education)
                 <div class="col mb-4 appear-animation" data-appear-animation="fadeInUpShorter"

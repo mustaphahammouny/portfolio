@@ -4,12 +4,12 @@
     </x-slot>
 
     <x-particles>
-        <x-breadcrumb :title="__('Contact')" />
+        <x-breadcrumb title="Contact" />
     </x-particles>
 
     <section id="form-contact" class="with-bg">
         <div class="container-md container-xl-custom py-4">
-            <x-title :title="__('Send me a message')" />
+            <x-title title="Send me a message" />
             <div class="row">
                 <div class="col">
                     <x-alert-session />
@@ -51,7 +51,7 @@
 
     <section id="contact">
         <div class="container-md container-xl-custom py-4">
-            <x-title :title="__('Contact Info')" />
+            <x-title title="Contact Info" />
             <div class="featured-boxes featured-boxes-flat">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                     <div class="col mb-4 appear-animation" data-appear-animation="fadeInUpShorter"
