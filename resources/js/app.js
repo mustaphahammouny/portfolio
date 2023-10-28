@@ -9,6 +9,8 @@ import "./theme";
 
 import "./init";
 
+import.meta.glob(["../images/**", "../fonts/**"]);
+
 class App {
     static init() {
         this.initScroll();
