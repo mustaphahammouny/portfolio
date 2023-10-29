@@ -18,7 +18,7 @@
                                     data-appear-animation-delay="200">
                                     <div class="card card-border card-border-bottom">
                                         <img class="card-img-top"
-                                            src="{{ Vite::image('/projects/' . $project['image']) }}"
+                                            src="{{ Vite::image('projects/' . $project['image']) }}"
                                             alt="{{ $project['name'] }} Project">
                                         <div class="card-body">
                                             <h4 class="card-title mb-1 text-4 text-primary font-weight-bold">
