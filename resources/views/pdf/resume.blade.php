@@ -328,7 +328,7 @@
                         <h2 class="text-primary bb-1">@lang('Contact')</h2>
                         <p class="mt-0 mb-1">
                             <i class="icon icon-enveloppe"></i>
-                            <span class="text-muted align-middle">{{ $resume['info']['email'] }}</span>
+                            <span class="text-muted align-middle">mustapha.hammouny@gmail.com</span>
                         </p>
                         <p class="mt-0 mb-1">
                             <i class="icon icon-phone"></i>

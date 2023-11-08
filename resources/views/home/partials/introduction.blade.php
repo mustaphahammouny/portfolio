@@ -8,7 +8,7 @@
                 </span>
                 <br />
                 <span class="text-4">
-                    @lang('I am a Full Stack developer.')
+                    @lang($resume['info']['description'])
                 </span>
             </h2>
             <a class="btn btn-primary" href="{{ route('resume.download') }}" target="_blank">

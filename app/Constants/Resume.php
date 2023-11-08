@@ -14,6 +14,7 @@ abstract class Resume
         'country' => 'Morocco',
         'nationality' => 'Moroccan',
         'job' => 'Full Stack developer',
+        'description' => 'A dedicated Fullstack Developer who loves to code and bring ideas to digital life. Feel free to get in touch with me for more information.',
     ];
 
     const SOCIALS = [
