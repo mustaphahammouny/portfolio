@@ -12,6 +12,13 @@ abstract class Projects
             'image' => 'wecare.png',
             'technologies' => ['Html', 'Css', 'PHP', 'Laravel', 'Livewire', 'Bootstrap', 'JS', 'jQuery', 'Mysql', 'Git'],
         ],
+        [
+            'name' => 'Quizzy',
+            'to' => 'https://quizzy.mustaphahammouny.com',
+            'description' => 'Quizzy is an interactive and user-friendly educational application that empowers teachers and students to engage in a dynamic learning experience. With Quizzy, teachers can effortlessly create custom quizzes tailored to their curriculum, while students can enroll in these quizzes to test their knowledge and track their progress.',
+            'image' => 'quizzy.png',
+            'technologies' => ['Html', 'Css', 'PHP', 'Laravel', 'Bootstrap', 'JS', 'Vue', 'Mysql', 'Git'],
+        ],
         // [
         //     'name' => 'Car rental',
         //     'to' => '',
