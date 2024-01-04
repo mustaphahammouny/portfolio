@@ -301,7 +301,7 @@
                                         </h3>
                                     </td>
                                     <td class="text-muted text-end text-nowrap">
-                                        @lang($experience['from']) - @lang($experience['to'])
+                                        @lang($education['from']) - @lang($education['to'])
                                     </td>
                                 </tr>
                                 <tr>
