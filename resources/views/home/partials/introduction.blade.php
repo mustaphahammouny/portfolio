@@ -1,13 +1,13 @@
 <x-particles>
-    <div class="row">
-        <div class="col-lg-7 my-auto appear-animation" data-appear-animation="fadeInRightShorter"
+    <div class="row text-center text-lg-start">
+        <div class="col-lg-7 my-lg-auto mt-4 appear-animation" data-appear-animation="fadeInRightShorter"
             data-appear-animation-delay="500">
             <h2 class="font-weight-bold text-10 line-height-2">
-                <span class="text-4">
+                <span>
                     @lang("Hello, I'm") {{ $resume['info']['name'] }}.
                 </span>
                 <br />
-                <span class="text-4">
+                <span>
                     @lang($resume['info']['description'])
                 </span>
             </h2>
@@ -17,7 +17,7 @@
             </a>
         </div>
         <div class="col-lg-5 appear-animation" data-appear-animation="fadeInLeftShorter">
-            <img class="img-fluid" src="{{ Vite::image('img-web.png') }}" alt="Image">
+            <img class="img-fluid img-height-500" src="{{ Vite::image('img-web.png') }}" alt="{{ $resume['info']['name'] }}">
         </div>
     </div>
 </x-particles>
